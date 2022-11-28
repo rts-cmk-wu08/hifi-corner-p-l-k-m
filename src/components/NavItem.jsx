@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom';
-import './NavItem.scss';
+import './NavItem.css';
+
 const NavItem = () => {
     return ( 
         <nav>
             <ul>
-               <Link to="/"></Link>
-               <Link to="/AboutUs"></Link>
-                <Link to="/ContactUs"></Link>
-                <Link to="/Shop"></Link>
+                <li><Link to="/">Shop</Link></li>
+                <li><Link to="/AboutUs">About Us</Link></li>
+                <li><Link to="/ContactUs">Contact us</Link></li>
                 
             </ul>
         </nav>

@@ -5,6 +5,7 @@ import App from './App';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
+import NotFound from "./pages/NotFound";
 
 import {
   createBrowserRouter,
