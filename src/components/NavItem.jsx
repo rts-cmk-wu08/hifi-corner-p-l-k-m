@@ -3,15 +3,19 @@ import './NavItem.css';
 
 const NavItem = () => {
     return ( 
+            <> 
         <nav>
-                <span className='box_logo'><p className='box_logo p'>HIFI</p></span>
+        <span className='box_logo'><p className='box_logo p'>HI<br/>FI</p></span>     
             <ul>
                 <li><Link to="/Shop">Shop</Link></li>
                 <li><Link to="/AboutUs">About Us</Link></li>
-                <li><Link to="/ContactUs">Contact us</Link></li>
-                
+                <li><Link to="/ContactUs">Contact us</Link></li>   
             </ul>
+         <span className='searchBar' ><input  type="search" placeholder='Search...'/> </span>
         </nav>
+
+
+        </>
 )}
  
 export default NavItem;
