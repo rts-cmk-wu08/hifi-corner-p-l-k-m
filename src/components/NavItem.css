@@ -50,3 +50,24 @@ nav ul li a {
   height: 30%;
   padding-top: 2rem;
 }
+
+.hifiText{
+    text-decoration: none;
+    color: white;
+}
+
+
+.userIcon{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-top: 0.3rem;
+    padding-left: 0.3rem;
+  
+}
+
+.cartIcon{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-top: 0.3rem;
+    padding-left: 0.3rem;
+}
