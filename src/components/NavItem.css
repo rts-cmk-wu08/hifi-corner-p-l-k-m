@@ -61,13 +61,14 @@ nav ul li a {
     width: 1.5rem;
     height: 1.5rem;
     padding-top: 0.3rem;
-    padding-left: 0.3rem;
-  
+    padding-left: 1.8rem;
+    cursor: pointer;
 }
 
 .cartIcon{
     width: 1.5rem;
     height: 1.5rem;
     padding-top: 0.3rem;
-    padding-left: 0.3rem;
+    padding-left: 1.2rem;
+    cursor: pointer;
 }
