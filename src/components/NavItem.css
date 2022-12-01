@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+nav {
+  background-color: black;
+  color: #fff;
+  padding: 0.625rem;
+  display: flex;
+  list-style: none;
+  height: 7rem;
+}
+
+nav ul li {
+  display: flex;
+  padding-top: 2rem;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+nav ul li a {
+  display: flex;
+  margin: 0 0.625rem;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.box_logo {
+  width: 4.3rem;
+  height: 3.8rem;
+  
+  
+}
+
+.box_logo p {
+  border: 1px solid white;
+  padding-top: 1.5rem;
+  padding-left: 1rem;
+  font-family: "Open Sans", sans-serif;
+
+}
+
+.searchBar {
+  display: flex;
+  justify-content: flex-end;
+  width: 55%;
+  height: 30%;
+  padding-top: 2rem;
+}
+
+.hifiText{
+    text-decoration: none;
+    color: white;
+}
+
+
+.userIcon{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-top: 0.3rem;
+    padding-left: 1.8rem;
+    cursor: pointer;
+}
+
+.cartIcon{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-top: 0.3rem;
+    padding-left: 1.2rem;
+    cursor: pointer;
+}
