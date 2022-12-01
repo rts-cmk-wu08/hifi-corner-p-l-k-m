@@ -5,8 +5,8 @@ const NavItem = () => {
         <nav>
             <ul>
                <Link to="/"></Link>
-               <Link to="/AboutUs"></Link>
-                <Link to="/ContactUs"></Link>
+               <Link to="/AboutUs">About US</Link>
+                <Link to="/ContactUs">Contact Us</Link>
                 <Link to="/Shop"></Link>
                 
             </ul>
