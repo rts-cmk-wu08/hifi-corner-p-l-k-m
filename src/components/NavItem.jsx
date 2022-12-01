@@ -8,6 +8,7 @@ const NavItem = () => {
         <nav>
         <span className='box_logo'><p className='box_logo p'><Link to="/index" className='hifiText'> HI<br/>FI</Link></p></span>     
             <ul>
+
                 <li><Link to="/Shop">Shop</Link></li>
                 <li><Link to="/AboutUs">About Us</Link></li>
                 <li><Link to="/ContactUs">Contact us</Link></li>   
