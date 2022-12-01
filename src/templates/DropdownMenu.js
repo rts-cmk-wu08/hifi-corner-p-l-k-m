@@ -1,18 +1,11 @@
-import { Link } from "react-router-dom";
+import ShopItem from "../components/DropdownItem";
+
 
 const DropDownMenu = () => {
     return (
         <>
             <ul>
-                <DropdownItem/>
-                <DropdownItem/>
-                <DropdownItem/>
-                <DropdownItem/>
-                <DropdownItem/>
-                <DropdownItem/>
-                <DropdownItem/>
-                <DropdownItem/>
-                <DropdownItem/>
+                <ShopItem/>
             </ul>
         </>
      );

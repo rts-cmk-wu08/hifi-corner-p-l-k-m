@@ -8,12 +8,7 @@ import ContactUs from './pages/ContactUs';
 import NotFound from "./pages/NotFound";
 import Shop from './pages/Shop';
 
-import {
-  createBrowserRouter,
-  Route,
-  RouterProvider,
-  createRoutesFromElements,
-} from "react-router-dom";
+import { createBrowserRouter, Route, RouterProvider, createRoutesFromElements } from "react-router-dom";
 
 
 export const router= createBrowserRouter(
