@@ -1,4 +1,4 @@
-const Home = () => {
+const NotFound = () => {
     return ( 
         <>
         
@@ -6,4 +6,4 @@ const Home = () => {
      );
 }
  
-export default Home;
+export default NotFound;
