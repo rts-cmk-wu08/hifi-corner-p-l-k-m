@@ -1,12 +1,14 @@
-const Product = () => {
+import ProductCard from "../components/ProductCard";
+
+const ProductInfo = () => {
     return ( 
 
         <>
-            <article>
-                <h1>Product</h1>
-            </article>
+        <main>
+        <ProductCard/>
+        </main>
         </>
      );
 }
  
-export default Product;
+export default ProductInfo;
