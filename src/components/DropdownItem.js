@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import './DropdownItem.css';
 
 
 const ShopItem = () => {
@@ -20,12 +21,14 @@ const ShopItem = () => {
     return loading ? <p>Loading...</p> : (
 
     <>
-        <Link to="./shop">Browse Catagories</Link>
-        {catagories.map(catagories => (
-            <li key={catagories.id}>
-                <Link to={`/catagories/${catagories.id}`}>{catagories.type}</Link>
-            </li>
-        ))}
+        <div className="menu-container">
+            <Link to="./shop">Browse Catagories</Link>
+            {catagories.map(catagories => (
+                <li key={catagories.id}>
+                    <Link to={`/catagories/${catagories.type}`}>{catagories.type}</Link>
+                </li>
+            ))}
+        </div>
     </>
     );
 }
