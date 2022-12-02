@@ -1,0 +1,20 @@
+.SeeAllProducts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF6900;
+    width: 10.5rem;
+    height: 2.2rem;
+    border-radius: 0.2rem;
+    box-shadow: 0.08rem 0.08rem 0.08rem 0.08rem  rgba(0, 0, 0, 0.123);
+    cursor: pointer;
+
+}
+.SeeAllProducts__text{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    
+}
+
+

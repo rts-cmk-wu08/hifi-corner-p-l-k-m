@@ -1,12 +1,20 @@
-import ProductCard from './components/ProductCard';
+import './ProductCard.css';
 
-const ProductCard = () => {
+const Product = () => {
     return ( 
         <>
-            
+          <h1>Popular Products</h1>  
+            <article>
+                <p>
+
+                </p>
+            </article>
+
+        
                 
         </>
      );
 }
  
-export default ProductCard;
+export default Product;
+
