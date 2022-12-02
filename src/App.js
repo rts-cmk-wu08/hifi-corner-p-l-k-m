@@ -7,14 +7,13 @@ function App() {
   return (
     <>
     <Header/>
-  
+
     <Outlet />
     <Product/>
     <SeeAll/>
     
     <BlackInfoBox/>
     </>
-    
   );
 }
 

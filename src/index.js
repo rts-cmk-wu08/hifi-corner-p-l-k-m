@@ -6,13 +6,8 @@ import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import NotFound from "./pages/NotFound";
-import Shop from "./pages/Shop";
-import {
-  createBrowserRouter,
-  Route,
-  RouterProvider,
-  createRoutesFromElements,
-} from "react-router-dom";
+import Shop from './pages/Shop';
+import { createBrowserRouter, Route, RouterProvider, createRoutesFromElements } from "react-router-dom";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
