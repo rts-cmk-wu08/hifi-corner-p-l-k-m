@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./NavItem.css";
+import "./NavItem.scss";
 import { AiOutlineUser, AiOutlineShoppingCart } from "react-icons/ai";
 import {SlMagnifier} from "react-icons/sl";
 const NavItem = () => {

@@ -1,4 +1,4 @@
-import "./BlackInfoBox.css";
+import "./BlackInfoBox.scss";
 const BlackInfoBox = () => {
   return (
     <>
