@@ -1,15 +1,10 @@
-import FooterContact from "../components/FooterContact"
-import FooterLicensing from "../components/FooterLicensing"
-import FooterPaymentCards from "../components/FooterPaymentCards"
-import FooterReturns from "../components/FooterReturns"
+
+import FooterComponent from "../components/FooterComponent"
 
 const Footer = () => {
     return (
         <footer>
-            <FooterContact></FooterContact>
-            <FooterLicensing></FooterLicensing>
-            <FooterPaymentCards></FooterPaymentCards>
-            <FooterReturns></FooterReturns>
+            <FooterComponent/>
         </footer>
      );
 }

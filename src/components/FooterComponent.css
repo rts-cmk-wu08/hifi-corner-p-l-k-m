@@ -1,0 +1,32 @@
+/*Carstens Font*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+/*Font Awesome*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css');
+
+* {
+    font-family: Open Sans;
+}
+
+.wrapper {
+    background-color: black;
+    color: white;
+    padding: 0 10rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 3fr 1fr;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.grid-1_2 {
+    grid-column: 1;
+    grid-row: 2;
+}
